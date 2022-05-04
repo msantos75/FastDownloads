@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/05 15:13:01.000.170,=C:\Users\msant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 10:34:13.000.392,=C:\Users\msant\OneDrive\Documentos\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2022/05/03 21:28:02.000.398,=C:\Users\msant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/03 21:29:32.000.326,C:\Users\msant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\CVSoft\Marcio\FastDownloads\UnitFormMain.dfm</Transaction>
+    <Transaction>2022/05/03 21:29:32.000.326,C:\Users\msant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas</Transaction>
+    <Transaction>2022/05/03 21:29:44.000.134,C:\Users\msant\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\CVSoft\Marcio\FastDownloads\ProjectFastDownloads.dproj</Transaction>
+    <Transaction>2022/05/03 21:41:47.000.748,=C:\CVSoft\Marcio\FastDownloads\Unit1.pas</Transaction>
+    <Transaction>2022/05/03 21:43:46.000.078,=C:\CVSoft\Marcio\FastDownloads\Unit2.pas</Transaction>
+    <Transaction>2022/05/03 21:46:10.000.600,=C:\CVSoft\Marcio\FastDownloads\Unit1.pas</Transaction>
+    <Transaction>2022/05/03 22:10:58.000.069,C:\CVSoft\Marcio\FastDownloads\Unit1.pas=C:\CVSoft\Marcio\FastDownloads\UnitDataModule.pas</Transaction>
+    <Transaction>2022/05/03 22:10:58.000.069,C:\CVSoft\Marcio\FastDownloads\Unit1.dfm=C:\CVSoft\Marcio\FastDownloads\UnitDataModule.dfm</Transaction>
+    <Transaction>2022/05/03 22:29:11.000.298,=C:\CVSoft\Marcio\FastDownloads\Unit1.pas</Transaction>
+    <Transaction>2022/05/03 22:31:08.000.880,C:\CVSoft\Marcio\FastDownloads\Unit1.pas=C:\CVSoft\Marcio\FastDownloads\UnitDB.pas</Transaction>
+    <Transaction>2022/05/04 08:02:58.000.348,=C:\CVSoft\Marcio\FastDownloads\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:03:17.000.939,C:\CVSoft\Marcio\FastDownloads\Unit1.pas=C:\CVSoft\Marcio\FastDownloads\UnitDownloadFile.pas</Transaction>
+    <Transaction>2022/05/04 08:39:24.000.260,=C:\CVSoft\Marcio\FastDownloads\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:42:43.000.817,C:\CVSoft\Marcio\FastDownloads\UnitDownloadFile.pas=</Transaction>
+    <Transaction>2022/05/04 08:42:49.000.246,C:\CVSoft\Marcio\FastDownloads\Unit1.dfm=C:\CVSoft\Marcio\FastDownloads\UnitDownloadFile.dfm</Transaction>
+    <Transaction>2022/05/04 08:42:49.000.246,C:\CVSoft\Marcio\FastDownloads\Unit1.pas=C:\CVSoft\Marcio\FastDownloads\UnitDownloadFile.pas</Transaction>
+    <Transaction>2022/05/04 08:44:17.000.654,C:\CVSoft\Marcio\FastDownloads\UnitDownloadFile.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
