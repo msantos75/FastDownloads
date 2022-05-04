@@ -1,7 +1,7 @@
 ﻿[Closed Files]
-File_0=TSourceModule,'C:\CVSoft\Lib\Indy\Lib\System\IdBaseComponent.pas',0,1,163,1,171,0,0,,
-File_1=TSourceModule,'C:\Program Files (x86)\Embarcadero\Studio\22.0\source\Indy10\Protocols\IdHTTP.pas',0,1,624,1,637,0,0,,
-File_2=TSourceModule,'C:\CVSoft\Lib\Indy\Lib\System\IdComponent.pas',0,1,85,1,98,0,0,,
+File_0=TSourceModule,'C:\CVSoft\Lib\Indy\Lib\System\IdComponent.pas',0,1,202,1,206,0,0,,
+File_1=TSourceModule,'C:\CVSoft\Lib\Indy\Lib\System\IdBaseComponent.pas',0,1,163,1,171,0,0,,
+File_2=TSourceModule,'C:\Program Files (x86)\Embarcadero\Studio\22.0\source\Indy10\Protocols\IdHTTP.pas',0,1,624,1,637,0,0,,
 File_3=TSourceModule,'c:\program files (x86)\embarcadero\studio\22.0\source\rtl\common\System.Classes.pas',0,1,4027,1,4040,0,0,,
 File_4=TSourceModule,'C:\CVSoft\Marcio\FastDownloads\UnitDownloadFile.pas',0,1,1,1,1,0,0,,
 File_5=TSourceModule,'c:\program files (x86)\embarcadero\studio\22.0\source\rtl\net\System.Net.HTTPClientComponent.pas',0,1,701,1,714,0,0,,
@@ -17,27 +17,32 @@ File_14=TSourceModule,'C:\CVSoft\CVSoft\SFP\UnitRotinasCalc.pas',0,1,1057,1,1071
 
 [Modules]
 Module0=C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas
-Module1=C:\CVSoft\Marcio\FastDownloads\UnitDataModule.pas
+Module1=C:\CVSoft\Marcio\FastDownloads\ProjectFastDownloads.dproj
 Module2=C:\CVSoft\Marcio\FastDownloads\UnitDB.pas
-Count=3
+Module3=C:\CVSoft\Marcio\FastDownloads\UnitDataModule.pas
+Count=4
 EditWindowCount=1
 
 [C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas]
 ModuleType=TSourceModule
 
-[C:\CVSoft\Marcio\FastDownloads\UnitDataModule.pas]
-ModuleType=TSourceModule
+[C:\CVSoft\Marcio\FastDownloads\ProjectFastDownloads.dproj]
+ModuleType=TBaseProject
 
 [C:\CVSoft\Marcio\FastDownloads\UnitDB.pas]
 ModuleType=TSourceModule
 
+[C:\CVSoft\Marcio\FastDownloads\UnitDataModule.pas]
+ModuleType=TSourceModule
+
 [EditWindow0]
-ViewCount=4
+ViewCount=5
 CurrentEditView=C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas
 View0=0
 View1=1
 View2=2
 View3=3
+View4=4
 PercentageSizes=1
 Create=1
 Visible=1
@@ -54,9 +59,9 @@ ClientHeight=8791
 DockedToMainForm=1
 BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
 TopPanelSize=0
-LeftPanelSize=2362
+LeftPanelSize=1894
 LeftPanelClients=PropertyInspector,DockSite3
-LeftPanelData=00000800010100000000B20E000000000000013A090000000000000100000000E608000009000000446F636B53697465330100000000211A00001100000050726F7065727479496E73706563746F72FFFFFFFF
+LeftPanelData=00000800010100000000B20E0000000000000166070000000000000100000000B908000009000000446F636B53697465330100000000211A00001100000050726F7065727479496E73706563746F72FFFFFFFF
 RightPanelSize=0
 BottomPanelSize=1622
 BottomPanelClients=MessageView,DockSite1
@@ -73,15 +78,26 @@ OTAEditViewType=WelcomePage.MainPage
 [View1]
 CustomEditViewType=TEditView
 Module=C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas
-CursorX=1
-CursorY=63
-TopLine=103
+CursorX=45
+CursorY=92
+TopLine=82
 LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas
 
 [View2]
+CustomEditViewType=TEditView
+Module=C:\CVSoft\Marcio\FastDownloads\ProjectFastDownloads.dpr
+CursorX=49
+CursorY=12
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\CVSoft\Marcio\FastDownloads\ProjectFastDownloads.dpr
+
+[View3]
 CustomEditViewType=TEditView
 Module=C:\CVSoft\Marcio\FastDownloads\UnitDataModule.pas
 CursorX=1
@@ -92,12 +108,12 @@ Elisions=
 Bookmarks=
 EditViewName=Borland.FormDesignerView
 
-[View3]
+[View4]
 CustomEditViewType=TEditView
 Module=C:\CVSoft\Marcio\FastDownloads\UnitDB.pas
-CursorX=28
-CursorY=10
-TopLine=1
+CursorX=27
+CursorY=35
+TopLine=6
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -128,11 +144,12 @@ Dockable=1
 StayOnTop=0
 
 [Breakpoints]
-Count=4
-Breakpoint0='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',88,'',0,1,'',1,0,0,'',1,'','','',0,''
-Breakpoint1='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',98,'',0,1,'',1,0,0,'',1,'','','',0,''
-Breakpoint2='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',120,'',0,1,'',1,0,0,'',1,'','','',0,''
-Breakpoint3='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',82,'',0,1,'',1,0,0,'',1,'','','',0,''
+Count=5
+Breakpoint0='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',113,'',0,1,'',1,0,0,'',1,'','','',0,''
+Breakpoint1='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',123,'',0,1,'',1,0,0,'',1,'','','',0,''
+Breakpoint2='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',137,'',0,1,'',1,0,0,'',1,'','','',0,''
+Breakpoint3='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',88,'',0,1,'',1,0,0,'',1,'','','',0,''
+Breakpoint4='C:\CVSoft\Marcio\FastDownloads\UnitFormMain.pas',96,'',0,1,'',1,0,0,'',1,'','','',0,''
 
 [EmbarcaderoWin32Debugger_AddressBreakpoints]
 Count=0
@@ -169,11 +186,11 @@ State=0
 Left=0
 Top=0
 Width=1900
-Height=6628
+Height=5895
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6628
+ClientHeight=5895
 TBDockHeight=5895
 LRDockWidth=2350
 Dockable=1
@@ -207,11 +224,11 @@ State=0
 Left=0
 Top=0
 Width=1900
-Height=6953
+Height=6221
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6953
+ClientHeight=6221
 TBDockHeight=7151
 LRDockWidth=2000
 Dockable=1
@@ -224,22 +241,22 @@ Visible=1
 Docked=1
 State=0
 Left=0
-Top=233
-Width=2362
-Height=4291
+Top=229
+Width=1894
+Height=4337
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2362
-ClientHeight=4291
-TBDockHeight=9012
-LRDockWidth=2362
+ClientWidth=1894
+ClientHeight=4337
+TBDockHeight=6674
+LRDockWidth=1894
 Dockable=1
 StayOnTop=0
-SplitPos=174
+SplitPos=166
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=IOHandler,OnRedirect
+SelectedItem=IOHandler,OnClick
 ExpandedItems="LiveBindings Designer=0",Anchors=0,Constraints=0,StyleElements=0,Touch=0,HTTPOptions=0,ProxyParams=0,Request=0,LiveBindings=0,Margins=0
 
 [frmDesignPreview]
@@ -251,11 +268,11 @@ State=0
 Left=0
 Top=0
 Width=1900
-Height=6628
+Height=5895
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6628
+ClientHeight=5895
 TBDockHeight=5953
 LRDockWidth=2512
 Dockable=1
@@ -437,11 +454,11 @@ State=0
 Left=0
 Top=0
 Width=1900
-Height=6628
+Height=5895
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6628
+ClientHeight=5895
 TBDockHeight=4884
 LRDockWidth=7150
 Dockable=1
@@ -557,12 +574,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=2362
-Height=1965
+Width=1894
+Height=1919
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2362
-ClientHeight=1965
+ClientWidth=1894
+ClientHeight=1919
 TBDockHeight=3674
 LRDockWidth=1894
 Dockable=1
@@ -577,11 +594,11 @@ State=0
 Left=0
 Top=0
 Width=1900
-Height=6628
+Height=5895
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6628
+ClientHeight=5895
 TBDockHeight=4884
 LRDockWidth=5306
 Dockable=1
@@ -668,12 +685,12 @@ State=0
 Left=1592
 Top=96
 Width=2000
-Height=7407
+Height=6674
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6953
-TBDockHeight=7407
+ClientHeight=6221
+TBDockHeight=6674
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
@@ -691,14 +708,14 @@ Docked=1
 State=0
 Left=0
 Top=28
-Width=2362
-Height=1965
+Width=1894
+Height=1919
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2362
-ClientHeight=1965
-TBDockHeight=9012
-LRDockWidth=2362
+ClientWidth=1894
+ClientHeight=1919
+TBDockHeight=6674
+LRDockWidth=1894
 Dockable=1
 StayOnTop=0
 TabPosition=1
@@ -716,12 +733,12 @@ State=0
 Left=8
 Top=8
 Width=2000
-Height=7407
+Height=6674
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1900
-ClientHeight=6953
-TBDockHeight=7407
+ClientHeight=6221
+TBDockHeight=6674
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0

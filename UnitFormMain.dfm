@@ -20,7 +20,6 @@ object FormMain: TFormMain
     Height = 216
     Align = alClient
     TabOrder = 0
-    ExplicitHeight = 250
     object Label1: TLabel
       Left = 16
       Top = 32
@@ -103,25 +102,5 @@ object FormMain: TFormMain
       MaxLength = 600
       TabOrder = 5
     end
-  end
-  object HTTP: TIdHTTP
-    OnStatus = HTTPStatus
-    OnWork = HTTPWork
-    OnWorkBegin = HTTPWorkBegin
-    OnWorkEnd = HTTPWorkEnd
-    ProxyParams.BasicAuthentication = False
-    ProxyParams.ProxyPort = 0
-    Request.ContentLength = -1
-    Request.ContentRangeEnd = -1
-    Request.ContentRangeStart = -1
-    Request.ContentRangeInstanceLength = -1
-    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-    Request.BasicAuthentication = False
-    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
-    Request.Ranges.Units = 'bytes'
-    Request.Ranges = <>
-    HTTPOptions = [hoForceEncodeParams]
-    Left = 664
-    Top = 89
   end
 end
