@@ -21,15 +21,19 @@ type
     property EmAndamento : Boolean    read FEmAndamento write FEmAndamento;
     property Cancelado   : Boolean    read FCancelado   write FCancelado;
     function SalvarInfoDownload: Boolean;
+    function ProximoCodigo: Double;
   end;
 
 implementation
 
-uses System.SysUtils,
-     Vcl.Dialogs,
-     FireDac.Comp.Client,
-     FireDac.Stan.Param,
-     UnitDataModule;
+uses
+  System.SysUtils,
+  Vcl.Dialogs,
+  FireDac.Comp.Client,
+  FireDac.Stan.Param,
+  UnitDataModule;
+
+{ TInfoDownload }
 
 function TInfoDownload.SalvarInfoDownload: Boolean;
 var Query : TFDQuery;
@@ -48,7 +52,7 @@ begin
       SQL.Add('INSERT INTO LOGDOWNLOAD(CODIGO, URL, DATAINICIO, DATAFIM)');
       SQL.Add('VALUES (:CODIGO, :URL, :DATAINICIO, :DATAFIM)');
 
-      ParamByName('CODIGO').AsFloat := Codigo;
+      ParamByName('CODIGO').AsFloat := ProximoCodigo;
       ParamByName('URL').AsString := URL;
       ParamByName('DATAINICIO').AsDateTime := DataInicio;
       ParamByName('DATAFIM').AsDateTime := DataFim;
@@ -70,8 +74,6 @@ begin
   end;
 end;
 
-{ TInfoDownload }
-
 constructor TInfoDownload.Create;
 begin
   inherited Create;
@@ -86,6 +88,25 @@ end;
 destructor TInfoDownload.Destroy;
 begin
   inherited Destroy;
+end;
+
+function TInfoDownload.ProximoCodigo: Double;
+var Query : TFDQuery;
+begin
+  Query := TFDQuery.Create(nil);
+  With Query do
+  try
+    Connection := DataSet.FDConnection;
+
+    Close;
+    SQL.Clear;
+    SQL.Add('SELECT MAX(CODIGO) FROM LOGDOWNLOAD');
+    Open;
+
+    Result := Trunc(Fields[0].AsFloat) + 1;
+  finally
+    Query.Free;
+  end;
 end;
 
 end.

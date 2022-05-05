@@ -8,15 +8,13 @@ object DataSet: TDataSet
   end
   object FDConnection: TFDConnection
     Params.Strings = (
-      'Database=C:\CVSoft\Marcio\FastDownloads\DataBaseFastDownloads.db'
+      'Database=C:\FastDownloads\DataBaseFastDownloads.db'
       'LockingMode=Normal'
       'DriverID=SQLite')
-    Connected = True
     Left = 144
     Top = 24
   end
   object FDTable: TFDTable
-    Active = True
     IndexFieldNames = 'CODIGO'
     Connection = FDConnection
     TableName = 'LOGDOWNLOAD'
